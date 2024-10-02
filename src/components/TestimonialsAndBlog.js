@@ -3,7 +3,7 @@ import React from 'react';
 const TestimonialsAndBlog = () => {
   return (
     <>
-      <div className="section tekup-section-padding">
+      {/* <div className="section tekup-section-padding">
         <div className="container">
           <div className="tekup-section-title center">
             <h2>Trusted by more than 200+ clients around the world</h2>
@@ -67,7 +67,7 @@ const TestimonialsAndBlog = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* End section */}
 
       <div className="section bg-light1 tekup-section-padding2">

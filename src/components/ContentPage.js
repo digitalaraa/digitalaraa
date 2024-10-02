@@ -3,6 +3,8 @@ import { Helmet } from 'react-helmet';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import TestimonialsAndBlog from "./TestimonialsAndBlog";
+import ClientSlider from './ClientSlider'; // Adjust the path as needed
+
 // Make sure to update the image paths accordingly
 const ContentPage = () => {
   useEffect(() => {
@@ -192,6 +194,7 @@ const ContentPage = () => {
           </div>
         </div>
       </div>
+      <ClientSlider />
         <TestimonialsAndBlog />
     </>
   );
