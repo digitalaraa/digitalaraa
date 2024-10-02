@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --border-radius: 4px;
   --color-text: #333;
   --color-primary: #7026b9;
@@ -221,4 +221,14 @@ pre code:after,
 pre tt:before,
 pre tt:after {
   content: none;
+} */
+
+
+.animated[data-animation-in] {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.animated[data-animation-in].in-view {
+  opacity: 1;
 }
