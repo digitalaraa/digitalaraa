@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'gatsby';
-//import logo from '../assets/images/logo/logo-dark.svg'; // Adjust the path accordingly
 
 const Header = () => {
   return (
@@ -10,13 +9,13 @@ const Header = () => {
           <div className="tekup-header-info-wrap">
             <div className="tekup-header-info dark-color">
               <ul>
-                <li><i className="ri-map-pin-2-fill"></i>2774 Oak Drive, Plattsburgh, New York</li>
+                <li><i className="ri-map-pin-2-fill"></i>Coimbatore, Tamilnadu, India.</li>
               </ul>
             </div>
             <div className="tekup-header-info dark-color">
               <ul>
-                <li><a href="tel:5185643200"><i className="ri-phone-fill"></i>518-564-3200</a></li>
-                <li><a href="mailto:mathemeus@example.com"><i className="ri-mail-fill"></i>mathemeus@example.com</a></li>
+                <li><a href="tel:919843442155"><i className="ri-phone-fill"></i>9843442155</a></li>
+                <li><a href="mailto:digitalaraa@gmail.com"><i className="ri-mail-fill"></i>digitalaraa@gmail.com</a></li>
               </ul>
             </div>
           </div>
