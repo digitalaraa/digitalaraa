@@ -5,6 +5,7 @@ import Header from "../components/Header"; // Import the Header component
 import Footer from "../components/Footer";
 import HeroSlider from "../components/HeroSlider";
 import ContentPage from '../components/ContentPage';
+import Stats from "../components/Stats";
 
 const IndexPage = () => {
   useEffect(() => {
@@ -83,8 +84,8 @@ const IndexPage = () => {
             </div>
           </div>
         </div>
-
-        <div className="section tekup-section-padding-bottom">
+        <Stats />
+        {/* <div className="section tekup-section-padding-bottom">
           <div className="container">
             <div className="tekup-counter-wrap wrap2">
               <div className="tekup-counter-data tekup-counter-data2" data-aos="fade-up" data-aos-duration="400">
@@ -104,7 +105,7 @@ const IndexPage = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="section bg-light1 tekup-section-padding2">
           <div className="container">

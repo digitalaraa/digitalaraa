@@ -232,3 +232,13 @@ pre tt:after {
 .animated[data-animation-in].in-view {
   opacity: 1;
 }
+
+/* Add this to your CSS file */
+.animated[data-animation-in] {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.slick-active .animated[data-animation-in] {
+    opacity: 1;
+}
