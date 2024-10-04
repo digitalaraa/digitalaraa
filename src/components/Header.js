@@ -167,7 +167,7 @@ const Header = () => {
                       {/* Add more pages and submenus as needed */}
                     </ul>
                   </li>
-                  <li className="nav-item"><Link to="/contact-us" className="nav-link-item">Contact Us</Link></li>
+                  <li className="nav-item"><Link to="/contact" className="nav-link-item">Contact Us</Link></li>
                 </ul>
               </nav>
             </div>
