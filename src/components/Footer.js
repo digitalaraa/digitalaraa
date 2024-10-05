@@ -1,5 +1,6 @@
 import React from "react";
 import ProgressCircle from '../components/ProgressCircle'; // Adjust path as needed
+import digitalaraaLogo from '../../static/assets/images/logo/digitalaraa-logo.png'; // Ensure to include the file extension
 
 const Footer = () => {
   return (
@@ -11,7 +12,8 @@ const Footer = () => {
             <div className="col-xl-3 col-lg-12">
               <div className="tekup-footer-textarea light-color">
                 <a href="index.html">
-                  <img src="assets/images/logo/logo-white.svg" alt="Logo" />
+                  <img src={digitalaraaLogo} alt="Digital Araa Logo" />
+
                 </a>
                 <p>We are architects of advancement, and partners in your success. As a dynamic forward</p>
                 <div className="tekup-social-icon-box style-two">

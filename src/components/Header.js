@@ -98,6 +98,9 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
+import digitalaraaLogo from '../../static/assets/images/logo/digitalaraa-logo.png'; // Ensure to include the file extension
+
+
 const Header = () => {
   return (
     <header className="site-header tekup-header-section" id="sticky-menu">
@@ -123,7 +126,9 @@ const Header = () => {
           <nav className="navbar site-navbar">
             <div className="brand-logo">
               <Link to="/">
-                <img src="/" alt="Logo" className="light-version-logo" />
+                {/* <img src="/" alt="Logo" className="light-version-logo" /> */}
+                <img src={digitalaraaLogo} alt="Digital Araa Logo" />
+
               </Link>
             </div>
 
