@@ -138,35 +138,35 @@ const Header = () => {
                   <div className="mobile-menu-close">&times;</div>
                 </div>
                 <ul className="site-menu-main">
-                  <li className="nav-item nav-item-has-children">
+                  {/* <li className="nav-item nav-item-has-children">
                     <Link to="/" className="nav-link-item drop-trigger">Demo <i className="ri-arrow-down-s-line"></i></Link>
                     <ul className="sub-menu" id="submenu-1">
                       <li className="sub-menu--item nav-item-has-children">
                         <Link to="#" className="drop-trigger">OnePage <i className="fas fa-angle-down"></i></Link>
                         <ul className="sub-menu shape-none" id="submenu-2">
                           <li className="sub-menu--item"><Link to="/"><span className="menu-item-text">Home 1</span></Link></li>
-                          {/* Add more links as needed */}
                         </ul>
                       </li>
                       <li className="sub-menu--item nav-item-has-children">
                         <Link to="#" className="drop-trigger">Multipage<i className="fas fa-angle-down"></i></Link>
                         <ul className="sub-menu shape-none" id="submenu-3">
                           <li className="sub-menu--item"><Link to="/"><span className="menu-item-text">Home 01</span></Link></li>
-                          {/* Add more links as needed */}
                         </ul>
                       </li>
                     </ul>
-                  </li>
+                  </li> */}
                   {/* Direct About Us link */}
+                  <li className="nav-item"><Link to="/" className="nav-link-item">Home</Link></li>
                   <li className="nav-item"><Link to="/about/" className="nav-link-item">About Us</Link></li>
-                  <li className="nav-item nav-item-has-children">
+                  {/* <li className="nav-item nav-item-has-children">
                     <Link to="#" className="nav-link-item drop-trigger">Pages <i className="ri-arrow-down-s-line"></i></Link>
                     <ul className="sub-menu" id="submenu-2">
                       <li className="sub-menu--item"><Link to="/about/"><span className="menu-item-text">About Us</span></Link></li>
                       <li className="sub-menu--item"><Link to="/pricing"><span className="menu-item-text">Pricing</span></Link></li>
-                      {/* Add more pages and submenus as needed */}
                     </ul>
-                  </li>
+                  </li> */}
+                  <li className="nav-item"><Link to="/services" className="nav-link-item"> Our Services</Link></li>
+                  <li className="nav-item"><Link to="/faq" className="nav-link-item"> Faq</Link></li>
                   <li className="nav-item"><Link to="/contact" className="nav-link-item">Contact Us</Link></li>
                 </ul>
               </nav>
@@ -175,7 +175,7 @@ const Header = () => {
             <div className="header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex">
               <div className="tekup-header-icon">
                 <div className="tekup-header-search">
-                  <i className="ri-search-line"></i>
+                  {/* <i className="ri-search-line"></i> */}
                 </div>
                 <Link className="tekup-default-btn tekup-header-btn" to="/contact-us">Get in Touch <i className="ri-arrow-right-up-line"></i></Link>
               </div>
