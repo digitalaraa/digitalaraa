@@ -1,4 +1,5 @@
 import React from "react";
+import ProgressCircle from '../components/ProgressCircle'; // Adjust path as needed
 
 const Footer = () => {
   return (
@@ -101,6 +102,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
+            <ProgressCircle />
+
     </footer> 
     </>
   );

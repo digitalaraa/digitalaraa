@@ -4,6 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import TestimonialsAndBlog from "./TestimonialsAndBlog";
 import ClientSlider from './ClientSlider'; // Adjust the path as needed
+import PricingSection from './PricingSection'; // Adjust the path as needed
 
 // Make sure to update the image paths accordingly
 const ContentPage = () => {
@@ -119,81 +120,7 @@ const ContentPage = () => {
       </div>
 
       {/* Pricing Section */}
-      <div className="section tekup-section-padding2 dark-bg">
-        <div className="container">
-          <div className="tekup-section-title center light-color">
-            <h2>Effective & flexible pricing</h2>
-          </div>
-          <div className="row">
-            {/* Pricing Item 1 */}
-            <div className="col-xl-4 col-md-6">
-              <div className="tekup-pricing-wrap" data-aos="fade-up" data-aos-duration="400">
-                <div className="tekup-pricing-header">
-                  <h4>Startup</h4>
-                  <p>Best for Startup business owners who need a website for business.</p>
-                </div>
-                <div className="tekup-pricing-price">
-                  <h2>$99<span>/month</span></h2>
-                </div>
-                <a className="tekup-pricing-btn" href="pricing.html">Select This Package <i className="ri-arrow-right-up-line"></i></a>
-                <div className="tekup-pricing-feature">
-                  <ul>
-                    <li><i className="ri-check-line"></i>10 GB disk space availability</li>
-                    <li><i className="ri-check-line"></i>50 GB NVMe SSD for use</li>
-                    <li><i className="ri-check-line"></i>Free platform access for all</li>
-                    <li><i className="ri-check-line"></i>Free lifetime updates facility</li>
-                    <li><i className="ri-check-line"></i>Free one-year support</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            {/* Pricing Item 2 */}
-            <div className="col-xl-4 col-md-6">
-              <div className="tekup-pricing-wrap" data-aos="fade-up" data-aos-duration="600">
-                <div className="tekup-pricing-header">
-                  <h4>Business</h4>
-                  <p>Best for Startup business owners who need a website for business.</p>
-                </div>
-                <div className="tekup-pricing-price">
-                  <h2>$299<span>/month</span></h2>
-                </div>
-                <a className="tekup-pricing-btn active" href="pricing.html">Select This Package <i className="ri-arrow-right-up-line"></i></a>
-                <div className="tekup-pricing-feature">
-                  <ul>
-                    <li><i className="ri-check-line"></i>10 GB disk space availability</li>
-                    <li><i className="ri-check-line"></i>50 GB NVMe SSD for use</li>
-                    <li><i className="ri-check-line"></i>Free platform access for all</li>
-                    <li><i className="ri-check-line"></i>Free lifetime updates facility</li>
-                    <li><i className="ri-check-line"></i>Free one-year support</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            {/* Pricing Item 3 */}
-            <div className="col-xl-4 col-md-6">
-              <div className="tekup-pricing-wrap" data-aos="fade-up" data-aos-duration="800">
-                <div className="tekup-pricing-header">
-                  <h4>Enterprise</h4>
-                  <p>Best for Startup business owners who need a website for business.</p>
-                </div>
-                <div className="tekup-pricing-price">
-                  <h2>$499<span>/month</span></h2>
-                </div>
-                <a className="tekup-pricing-btn" href="pricing.html">Select This Package <i className="ri-arrow-right-up-line"></i></a>
-                <div className="tekup-pricing-feature">
-                  <ul>
-                    <li><i className="ri-check-line"></i>10 GB disk space availability</li>
-                    <li><i className="ri-check-line"></i>50 GB NVMe SSD for use</li>
-                    <li><i className="ri-check-line"></i>Free platform access for all</li>
-                    <li><i className="ri-check-line"></i>Free lifetime updates facility</li>
-                    <li><i className="ri-check-line"></i>Free one-year support</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <PricingSection />
       <ClientSlider />
         <TestimonialsAndBlog />
     </>

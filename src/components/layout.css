@@ -242,3 +242,18 @@ pre tt:after {
 .slick-active .animated[data-animation-in] {
     opacity: 1;
 }
+
+
+/* Add this to your main CSS file or adjust existing styles */
+
+.tekup-accordion-body {
+  max-height: 0; /* Collapsed state */
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease; /* Smooth transition for max-height and padding */
+  padding: 0; /* No padding when collapsed */
+}
+
+.tekup-accordion-body.show {
+  padding: 15px 0; /* Add padding when expanded */
+  max-height: 500px; /* Ensure this value accommodates your content */
+}

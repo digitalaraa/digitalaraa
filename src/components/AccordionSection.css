@@ -1,0 +1,47 @@
+/* src/components/AccordionSection.css */
+
+.accordion {
+    border: 1px solid #e0e0e0; /* Light border for the entire accordion */
+    border-radius: 5px;
+  }
+  
+  .accordion-item {
+    border: none;
+    margin-bottom: 10px;
+  }
+  
+  .accordion-header {
+    background: #f9f9f9; /* Light background for the header */
+  }
+  
+  .accordion-button {
+    background: transparent;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px; /* Adjust font size as needed */
+    cursor: pointer;
+    transition: background 0.3s ease; /* Smooth background transition */
+  }
+  
+  .accordion-button:hover {
+    background: #e9ecef; /* Change background on hover */
+  }
+  
+  .accordion-collapse {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease; /* Smooth transition for height */
+  }
+  
+  .accordion-collapse.show {
+    max-height: 500px; /* Arbitrary high value to accommodate content */
+  }
+  
+  .accordion-body {
+    padding: 15px;
+    background: #fff; /* White background for the body */
+  }
+  
