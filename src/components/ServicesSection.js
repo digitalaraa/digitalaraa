@@ -1,8 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'gatsby';
 
-import ITServicesSection from "../components/ITServicesSection";
-
 const ServicesSection = () => {
   useEffect(() => {
     // Initialize AOS for animations
@@ -113,7 +111,6 @@ const ServicesSection = () => {
       </div>
     </div>
 
-    <ITServicesSection />
     </>
   );
 };

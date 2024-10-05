@@ -260,7 +260,6 @@ const IndexPage = () => {
       <body className="light">
         <Header /> {/* Place Header inside Helmet for proper integration */}
         <HeroSlider />
-
         {/* Main Content Section */}
         <BusinessSuccessSection />
         <Stats />
