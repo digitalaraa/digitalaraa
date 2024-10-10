@@ -103,16 +103,16 @@ import digitalaraaLogo from '../../static/assets/images/logo/digitalaraa-logo.pn
 
 const Header = () => {
   return (
-    <header className="site-header tekup-header-section" id="sticky-menu">
-      <div className="tekup-header-top bg-light1">
+    <header className="site-header tekup-header-section site-header--menu-right light-color" id="sticky-menu">
+      <div className="tekup-header-top bg-accent">
         <div className="container-fluid">
           <div className="tekup-header-info-wrap">
-            <div className="tekup-header-info dark-color">
+            <div className="tekup-header-info">
               <ul>
                 <li><i className="ri-map-pin-2-fill"></i>Coimbatore, Tamilnadu, India.</li>
               </ul>
             </div>
-            <div className="tekup-header-info dark-color">
+            <div className="tekup-header-info">
               <ul>
                 <li><a href="tel:919843442155"><i className="ri-phone-fill"></i>9843442155</a></li>
                 <li><a href="mailto:digitalaraa@gmail.com"><i className="ri-mail-fill"></i>digitalaraa@gmail.com</a></li>
