@@ -103,7 +103,7 @@ import digitalaraaLogo from '../../static/assets/images/logo/digitalaraa-logo.pn
 
 const Header = () => {
   return (
-    <header className="site-header tekup-header-section site-header--menu-right light-color" id="sticky-menu">
+    <header className="site-header tekup-header-section site-header--menu-right dark-color" id="sticky-menu">
       <div className="tekup-header-top bg-accent">
         <div className="container-fluid">
           <div className="tekup-header-info-wrap">

@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import TestimonialsAndBlog from "./TestimonialsAndBlog";
-import ClientSlider from './ClientSlider'; // Adjust the path as needed
+//import ClientSlider from './ClientSlider'; // Adjust the path as needed
 import PricingSection from './PricingSection'; // Adjust the path as needed
 
 // Make sure to update the image paths accordingly
@@ -121,7 +121,6 @@ const ContentPage = () => {
 
       {/* Pricing Section */}
       <PricingSection />
-      <ClientSlider />
         <TestimonialsAndBlog />
     </>
   );
