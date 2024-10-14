@@ -224,7 +224,7 @@ import 'aos/dist/aos.css'; // Ensure AOS CSS is imported
 const IndexPage = () => {
   useEffect(() => {
     // Initialize AOS
-    AOS.init({ duration: 600 });
+    AOS.init({ duration: 100 });
   }, []);
 
   return (
