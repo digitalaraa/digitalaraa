@@ -46,7 +46,7 @@ const Faq = () => {
 
       <Layout>
         <Header />
-        <div className="tekup-breadcrumb" style={{ backgroundImage: 'url(/assets/images/breadcrumb/breadcrumb.png)' }}>
+        <div className="tekup-breadcrumb" style={{ backgroundImage: 'url(/assets/images/hero/faq.jpg)' }}>
           <div className="container">
             <h1 className="post__title">Faqs</h1>
             <nav className="breadcrumbs">

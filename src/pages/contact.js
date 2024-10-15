@@ -7,7 +7,7 @@ import ContactSection from '../components/ContactSection';
 const Contact = () => {
   useEffect(() => {
     import('aos').then(AOS => {
-      AOS.init({ duration: 100 });
+     AOS.init({ duration: 100 });
     });
   }, []);
 
@@ -39,7 +39,7 @@ const Contact = () => {
 
         <div
           className="tekup-breadcrumb"
-          style={{ backgroundImage: "url(/assets/images/breadcrumb/breadcrumb.png)" }}
+          style={{ backgroundImage: "url(/assets/images/hero/contact-banner.jpg)" }}
         >
           <div className="container">
             <h1 className="post__title">Contact us</h1>

@@ -49,7 +49,7 @@ const About = () => {
 
       <Layout>
         {/* Breadcrumb Section */}
-        <div className="tekup-breadcrumb" style={{ backgroundImage: 'url(/assets/images/breadcrumb/breadcrumb.png)' }}>
+        <div className="tekup-breadcrumb" style={{ backgroundImage: 'url(/assets/images/hero/about-us.jpg)' }}>
           <div className="container">
             <h1 className="post__title">About Us</h1>
             <nav className="breadcrumbs">
