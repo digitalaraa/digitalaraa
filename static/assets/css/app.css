@@ -3150,7 +3150,7 @@ h1.post__title {
   width: 100%;
   height: 100%;
   position: absolute;
-  background-image: url(../images/v1/overlay.png);
+  /*background-image: url(../images/v1/overlay.png);*/
 }
 .tekup-hero-content {
   position: relative;
