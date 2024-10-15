@@ -7,7 +7,7 @@ import ContactSection from '../components/ContactSection';
 const Contact = () => {
   useEffect(() => {
     import('aos').then(AOS => {
-      AOS.init();
+      AOS.init({ duration: 100 });
     });
   }, []);
 

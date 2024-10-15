@@ -4,7 +4,7 @@ const CallToAction = () => {
   useEffect(() => {
     // Initialize AOS for animations
     import('aos').then(AOS => {
-      AOS.init();
+      AOS.init({ duration: 100 });
     });
   }, []);
 
