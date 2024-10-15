@@ -224,7 +224,7 @@ import 'aos/dist/aos.css'; // Ensure AOS CSS is imported
 const IndexPage = () => {
   useEffect(() => {
     // Initialize AOS
-     //AOS.init({ duration: 100 });
+     AOS.init({ duration: 100 });
   }, []);
 
   return (
@@ -253,7 +253,7 @@ const IndexPage = () => {
         <link rel="stylesheet" href="/assets/css/fontawesome.css" />
         <link rel="stylesheet" href="/assets/css/aos.css" />
         <link rel="stylesheet" href="/assets/css/remixicon.css" />
-        <link rel="stylesheet" href="/assets/css/main.css" />
+        <link rel="stylesheet" href="/assets/css/main.css?v=1.0" />
         <link rel="stylesheet" href="/assets/css/app.min.css" />
       </Helmet>
 
