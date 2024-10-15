@@ -45,7 +45,7 @@ const IndexPage = () => {
         <link rel="stylesheet" href="/assets/css/fontawesome.css" />
         <link rel="stylesheet" href="/assets/css/aos.css" />
         <link rel="stylesheet" href="/assets/css/remixicon.css" />
-        <link rel="stylesheet" href="/assets/css/main.css?v=1.0" />
+        <link rel="stylesheet" href="/assets/css/main.css" />
         <link rel="stylesheet" href="/assets/css/app.min.css" />
       </Helmet>
 
