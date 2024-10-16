@@ -29,7 +29,7 @@ const SolutionsSection = () => {
                 </div>
                 <div className="tekup-iconbox-data4">
                   <h4>Expert Team Members</h4>
-                  <p>We are architects of innovation, trailblazers technological advancement partners</p>
+                  <p>We are architects of innovation, leaders in technological advancement, and partners in success.</p>
                   <a className="tekup-iconbox-btn" href="/single-service.html">
                     Learn More <i className="ri-arrow-right-up-line"></i>
                   </a>
@@ -43,7 +43,7 @@ const SolutionsSection = () => {
                 </div>
                 <div className="tekup-iconbox-data4">
                   <h4>Fastest Customer Service</h4>
-                  <p>We are architects of innovation, trailblazers technological advancement partners</p>
+                  <p>We provide rapid customer support, ensuring your needs are met swiftly and effectively.</p>
                   <a className="tekup-iconbox-btn" href="/single-service.html">
                     Learn More <i className="ri-arrow-right-up-line"></i>
                   </a>
@@ -57,7 +57,7 @@ const SolutionsSection = () => {
                 </div>
                 <div className="tekup-iconbox-data4">
                   <h4>Competitive Pricing Plan</h4>
-                  <p>We are architects of innovation, trailblazers technological advancement partners</p>
+                  <p>Our pricing plans deliver exceptional value, making quality services affordable for everyone.</p>
                   <a className="tekup-iconbox-btn" href="/single-service.html">
                     Learn More <i className="ri-arrow-right-up-line"></i>
                   </a>

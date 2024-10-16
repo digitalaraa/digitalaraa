@@ -81,7 +81,7 @@ const BusinessSuccessWithSkillBars = () => {
           {/* Left Column - Image */}
           <div className="col-lg-6 order-lg-2" data-aos="fade-up" data-aos-duration={600}>
             <div className="tekup-thumb ml-30">
-              <img src="/assets/images/v3/thumb2.png" alt="Business Success" />
+              <img src="/assets/images/hero/about-content-1.jpg" alt="Business Success" />
               <div className="tekup-thumb-card right">
                 <img src="/assets/images/v3/project-done.png" alt="Projects Done" />
               </div>

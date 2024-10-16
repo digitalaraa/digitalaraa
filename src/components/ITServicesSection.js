@@ -17,7 +17,7 @@ const ITServicesSection = () => {
             <a href="/single-service.html">
               <h5>Web Development</h5>
             </a>
-            <p>We are architects of innovation, trailblazers of technological advancement, and partners in your success</p>
+            <p>We create innovative websites, leading the way in technology and partnering with you for success.</p>
           </div>
         </div>
       </div>
@@ -31,7 +31,7 @@ const ITServicesSection = () => {
             <a href="/single-service.html">
               <h5>Digital Marketing</h5>
             </a>
-            <p>We are architects of innovation, trailblazers of technological advancement, and partners in your success</p>
+            <p>We drive growth through effective strategies, harnessing technology to connect you with your audience.</p>
           </div>
         </div>
       </div>
@@ -45,7 +45,7 @@ const ITServicesSection = () => {
             <a href="/single-service.html">
               <h5>App Development</h5>
             </a>
-            <p>We are architects of innovation, trailblazers of technological advancement, and partners in your success</p>
+            <p>We build cutting-edge applications, pioneering solutions that enhance user engagement and drive success.</p>
           </div>
         </div>
       </div>
@@ -59,7 +59,7 @@ const ITServicesSection = () => {
             <a href="/single-service.html">
               <h5>IT Management</h5>
             </a>
-            <p>We are architects of innovation, trailblazers of technological advancement, and partners in your success</p>
+            <p>We streamline IT operations, ensuring efficient solutions that support your business goals and growth.</p>
           </div>
         </div>
       </div>

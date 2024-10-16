@@ -127,9 +127,7 @@ const ContactSection = () => {
             <div className="tekup-default-content">
               <h2>Let’s Build an Awesome Project Together</h2>
               <p>
-                At our IT solution company, we are committed to exceptional
-                customer service and support. If you are experiencing technical
-                difficulties or need assistance with
+              At our IT solutions company, we prioritize outstanding customer service. If you have technical difficulties or need assistance, we're here to help!
               </p>
               <div className="tekup-contact-info-wrap wrap2">
                 <div className="tekup-contact-info mb-0">
@@ -155,7 +153,7 @@ const ContactSection = () => {
           <div className="col-xl-6 offset-xl-1 col-lg-6">
             <div className="tekup-main-form">
               <h3>Fill The Contact Form</h3>
-              <p>Feel free to contact with us, we don’t spam your email</p>
+              <p>We encourage you to contact us; your inquiries are important to us.</p>
               <form onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-lg-6">

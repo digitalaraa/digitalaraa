@@ -190,7 +190,7 @@ const About = () => {
               <div className="col-xl-6 col-lg-6" data-aos="fade-up" data-aos-duration="600">
                 <div className="tekup-thumb">
                   <img 
-                    src="/assets/images/v1/thumb1.png" 
+                    src="/assets/images/hero/about-content-2.jpg" 
                     alt="About Us Image" 
                     loading="lazy" // Lazy load the image
                   />
@@ -205,13 +205,16 @@ const About = () => {
               </div>
               <div className="col-xl-5 offset-xl-1 col-lg-6 d-flex align-items-center">
                 <div className="tekup-default-content">
-                  <h2>Exclusive technology to provide IT solutions</h2>
-                  <p>We are architects of innovation, trailblazers of technological advancement, and partners in your success. As a dynamic and forward-thinking organization, we strive to deliver exceptional technology solutions for modern businesses.</p>
+                  <h2>Innovative IT Solutions for Your Business</h2>
+                  <p>We design powerful digital experiences that drive success. Our mission is to provide modern web solutions that enhance your brand and connect you with your audience.</p>
                   <div className="tekup-icon-list">
                     <ul>
-                      <li><i className="ri-check-line"></i>Easily Build Custom Reports And Dashboards</li>
-                      <li><i className="ri-check-line"></i>Legacy Software Modernization</li>
-                      <li><i className="ri-check-line"></i>Software For The Open Enterprise</li>
+                      <li><i className="ri-check-line"></i>Responsive Web Design for All Devices</li>
+                      <li><i className="ri-check-line"></i>Social Media Marketing to Connect with Customers</li>
+                      <li><i className="ri-check-line"></i>SEO-Optimized Websites to Boost Visibility</li>
+                      <li><i className="ri-check-line"></i>E-commerce Solutions to Grow Sales</li>
+                      <li><i className="ri-check-line"></i>Targeted Digital Marketing Strategies</li>
+                      
                     </ul>
                   </div>
                   <div className="tekup-extra-mt">

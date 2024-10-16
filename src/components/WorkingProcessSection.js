@@ -19,7 +19,7 @@ const WorkingProcessSection = () => {
                   <a href="/single-service.html">
                     <h5>Initiation & Planning</h5>
                   </a>
-                  <p>We are architects innovation trailblazers of technological advancement</p>
+                  <p>We lay the groundwork for success, developing strategic plans that align with your vision and objectives.</p>
                 </div>
               </div>
             </div>
@@ -33,7 +33,7 @@ const WorkingProcessSection = () => {
                   <a href="/single-service.html">
                     <h5>Execution & Development</h5>
                   </a>
-                  <p>We are architects innovation trailblazers of technological advancement</p>
+                  <p>We turn plans into reality, delivering high-quality solutions that meet your needs and exceed expectations.</p>
                 </div>
               </div>
             </div>
@@ -47,7 +47,7 @@ const WorkingProcessSection = () => {
                   <a href="/single-service.html">
                     <h5>Testing & Maintenance</h5>
                   </a>
-                  <p>We are architects innovation trailblazers of technological advancement</p>
+                  <p>We ensure optimal performance through thorough testing and maintenance, keeping your systems running smoothly.</p>
                 </div>
               </div>
             </div>
