@@ -257,3 +257,16 @@ pre tt:after {
   padding: 15px 0; /* Add padding when expanded */
   max-height: 500px; /* Ensure this value accommodates your content */
 }
+
+
+/* Add this to your main CSS file or a specific CSS file for the FAQ component */
+.tekup-accordion-body {
+  max-height: 0; /* Start hidden */
+  overflow: hidden; /* Hide overflow */
+  transition: max-height 0.3s ease; /* Smooth transition */
+}
+
+.tekup-accordion-body.show {
+  max-height: 200px; /* Set a reasonable max-height for expanded content */
+  transition: max-height 0.3s ease; /* Ensure it transitions when opened */
+}

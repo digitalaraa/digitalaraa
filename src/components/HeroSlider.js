@@ -143,7 +143,19 @@ const HeroSlider = () => {
     >
       <div className="container">
         <div className="row">
-         
+        <div className="col-lg-7">
+            <div className="tekup-hero-content white-color">
+              <h1>Optimize your business with expert guidance.</h1>
+              <p>
+              We are innovators in technology and partners in your success. As a dynamic company, we drive your growth forward.
+              </p>
+              <div className="tekup-extra-mt" data-aos="fade-up" data-aos-duration="600">
+                <Link className="tekup-default-btn" to="/contact-us">
+                  Start a Project <i className="ri-arrow-right-up-line"></i>
+                </Link>
+              </div>
+            </div>
+          </div>
           <div className="col-lg-5 d-flex align-items-end justify-content-end">
             <div className="tekup-hero-rating">
               <img
@@ -161,21 +173,7 @@ const HeroSlider = () => {
               </ul>
             </div>
           </div>
-          <div className="col-lg-7">
-            <div className="tekup-hero-content white-color">
-              <h1>Optimize your enterprise with our leading guidance</h1>
-              <p>
-                We are architects of innovation, trailblazers of technological
-                advancement, and partners in your success. As a dynamic and
-                forward-thinking company, we ensure your growth.
-              </p>
-              <div className="tekup-extra-mt" data-aos="fade-up" data-aos-duration="600">
-                <Link className="tekup-default-btn" to="/contact-us">
-                  Start a Project <i className="ri-arrow-right-up-line"></i>
-                </Link>
-              </div>
-            </div>
-          </div>
+        
         </div>
       </div>
     </div>
