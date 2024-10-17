@@ -177,7 +177,7 @@ const Header = () => {
               </nav>
             </div>
 
-            <div className="header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex">
+            <div className="header-btn header-btn-l1 ms-auto d-xs-inline-flex">
               <div className="tekup-header-icon">
                 <div className="tekup-header-search">
                   {/* <i className="ri-search-line"></i> */}
