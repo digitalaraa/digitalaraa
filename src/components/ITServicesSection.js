@@ -31,7 +31,7 @@ const ITServicesSection = () => {
             <a href="/single-service.html">
               <h5>Digital Marketing</h5>
             </a>
-            <p>We drive growth through effective strategies, harnessing technology to connect you with your audience.</p>
+            <p>We design effective digital marketing strategies that drive growth and measurable success.</p>
           </div>
         </div>
       </div>

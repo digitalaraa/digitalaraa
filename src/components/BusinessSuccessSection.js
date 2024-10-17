@@ -42,7 +42,7 @@ const BusinessSuccessSection = () => {
 
           <div className="col-lg-6 d-flex align-items-center">
             <div className="tekup-default-content ml-60">
-              <h2>We are increasing business success with technology</h2>
+              <h2>Empowering Your Business Success Through Technology</h2>
 
               <div className="tekup-extra-mt">
                 <div className="tekup-icon-list-wrap">
@@ -53,8 +53,7 @@ const BusinessSuccessSection = () => {
                     <div className="tekup-icon-list-data">
                       <h5>Quality Solution for Business</h5>
                       <p>
-                        We are architects of innovation, trailblazers of
-                        technological advancement, and partners in your success.
+                      We provide reliable solutions that enhance performance and drive business success.
                       </p>
                     </div>
                   </div>
@@ -66,8 +65,7 @@ const BusinessSuccessSection = () => {
                     <div className="tekup-icon-list-data">
                       <h5>Amazing Expert Teams</h5>
                       <p>
-                        Support company that will learn the intimate details of
-                        your business technology and process while also.
+                      We have skilled teams dedicated to delivering innovative solutions and exceptional results.
                       </p>
                     </div>
                   </div>
