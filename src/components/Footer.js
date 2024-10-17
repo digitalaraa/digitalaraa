@@ -48,11 +48,11 @@ const Footer = () => {
                   <h5>Quick Links</h5>
                 </div>
                 <ul>
-                  <li><a href="about-us.html">About Us</a></li>
-                  <li><a href="team.html">Our Team</a></li>
-                  <li><a href="pricing.html">Pricing</a></li>
-                  <li><a href="blog.html">Blogs</a></li>
-                  <li><a href="contact-us.html">Contact Us</a></li>
+                  <li><a href="/about">About Us</a></li>
+                  <li><a href="/">Our Team</a></li>
+                  <li><a href="/">Pricing</a></li>
+                  <li><a href="/blog">Blogs</a></li>
+                  <li><a href="/contact">Contact Us</a></li>
                 </ul>
               </div>
             </div>

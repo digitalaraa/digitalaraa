@@ -13,3 +13,7 @@ import 'jquery-ui/ui/effects/effect-slide'; // If you need any specific jQuery U
 //  import './static/assets/css/main.css';
 //  import './static/assets/css/app.min.css';
 
+export const onRouteUpdate = ({ location, prevLocation }) => {
+    // Scroll to the top of the page when the route changes
+    window.scrollTo(0, 0);
+  };

@@ -372,7 +372,7 @@ const IndexPage = () => {
 
         {/* Preload critical CSS files for better performance */}
         <link rel="preload" href="/assets/css/main.css" as="style" onLoad="this.onload=null;this.rel='stylesheet'" />
-        <link rel="preload" href="/assets/css/bootstrap.min.css" as="style" onLoad="this.onload=null;this.rel='stylesheet'" />
+        {/* <link rel="preload" href="/assets/css/bootstrap.min.css" as="style" onLoad="this.onload=null;this.rel='stylesheet'" /> */}
 
         {/* Favicon */}
         <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon" />

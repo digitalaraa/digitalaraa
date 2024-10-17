@@ -238,7 +238,7 @@ const About = () => {
                     </ul>
                   </div>
                   <div className="tekup-extra-mt">
-                    <Link className="tekup-default-btn" to="/about-us.html">
+                    <Link className="tekup-default-btn" to="/about">
                       More About <i className="ri-arrow-right-up-line"></i>
                     </Link>
                   </div>

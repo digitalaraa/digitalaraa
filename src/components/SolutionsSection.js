@@ -5,7 +5,7 @@ const SolutionsSection = () => {
     <>
       <div
         className="tekup-breadcrumb"
-        style={{ backgroundImage: "url('/assets/images/hero/our-services.jpg')" }}
+        style={{ backgroundImage: "url('/assets/images/hero/banner-3.jpg')" }}
       >
         <div className="container">
           <h1 className="post__title">Our Services</h1>

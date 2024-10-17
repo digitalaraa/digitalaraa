@@ -116,6 +116,26 @@ const Contact = () => {
         ].map(file => (
           <link key={file} rel="stylesheet" href={`/assets/css/${file}`} />
         ))}
+
+         {/* Preload critical CSS files for better performance */}
+         <link rel="preload" href="/assets/css/main.css" as="style" onLoad="this.onload=null;this.rel='stylesheet'" />
+        <link rel="preload" href="/assets/css/bootstrap.min.css" as="style" onLoad="this.onload=null;this.rel='stylesheet'" />
+
+        {/* Favicon */}
+        <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon" />
+
+        {/* Fonts and CSS */}
+        <link href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="/assets/css/magnific-popup.css" />
+        <link rel="stylesheet" href="/assets/css/slick.css" />
+        <link rel="stylesheet" href="/assets/css/animate.css" />
+        <link rel="stylesheet" href="/assets/css/fontawesome.css" />
+        <link rel="stylesheet" href="/assets/css/aos.css" />
+        <link rel="stylesheet" href="/assets/css/remixicon.css" />
+        <link rel="stylesheet" href="/assets/css/main.css" />
+        <link rel="stylesheet" href="/assets/css/app.min.css" />
       </Helmet>
 
       <Layout>
