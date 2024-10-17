@@ -371,8 +371,8 @@ const IndexPage = () => {
         </style>
 
         {/* Preload critical CSS files for better performance */}
-        {/* <link rel="preload" href="/assets/css/main.css" as="style" onLoad="this.onload=null;this.rel='stylesheet'" />
-        <link rel="preload" href="/assets/css/bootstrap.min.css" as="style" onLoad="this.onload=null;this.rel='stylesheet'" /> */}
+        <link rel="preload" href="/assets/css/main.css" as="style" onLoad="this.onload=null;this.rel='stylesheet'" />
+        <link rel="preload" href="/assets/css/bootstrap.min.css" as="style" onLoad="this.onload=null;this.rel='stylesheet'" />
 
         {/* Favicon */}
         <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon" />
@@ -387,8 +387,8 @@ const IndexPage = () => {
         <link rel="stylesheet" href="/assets/css/fontawesome.css" />
         <link rel="stylesheet" href="/assets/css/aos.css" />
         <link rel="stylesheet" href="/assets/css/remixicon.css" />
-        {/* <link rel="stylesheet" href="/assets/css/main.css" />
-        <link rel="stylesheet" href="/assets/css/app.min.css" /> */}
+        <link rel="stylesheet" href="/assets/css/main.css" />
+        <link rel="stylesheet" href="/assets/css/app.min.css" />
       </Helmet>
       <Preloader />
       <Header />
