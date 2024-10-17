@@ -95,13 +95,58 @@
 
 
 
-import React from 'react';
-import { Link } from 'gatsby';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';import { Link } from 'gatsby';
 
 import digitalaraaLogo from '../../static/assets/images/logo/digitalaraa-logo.png'; // Ensure to include the file extension
 
 
+
 const Header = () => {
+
+  useEffect(() => {
+    // Initialize AOS
+    AOS.init({
+      duration: 1000, // Animation duration
+      once: false, // Whether animation should happen only once
+    });
+
+    // Function to check if an element is in the viewport
+    const isElementInViewport = (el) => {
+      const rect = el.getBoundingClientRect();
+      return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+      );
+    };
+
+    // Function to trigger animation
+    const triggerAnimation = () => {
+      const elements = document.querySelectorAll('[data-aos]');
+
+      elements.forEach((el) => {
+        if (isElementInViewport(el)) {
+          el.classList.add('aos-init');
+          el.classList.add('aos-animate');
+        }
+      });
+    };
+
+    // Add scroll event listener
+    window.addEventListener('scroll', triggerAnimation);
+
+    // Initial check on load
+    triggerAnimation();
+
+    // Cleanup event listener on unmount
+    return () => {
+      window.removeEventListener('scroll', triggerAnimation);
+    };
+  }, []);
+
   return (
     <header className="site-header tekup-header-section site-header--menu-right dark-color" id="sticky-menu">
       <div className="tekup-header-top bg-accent">

@@ -44,7 +44,7 @@ const WorkingProcessSection = () => {
                   <div className="tekup-iconbox-count">03</div>
                 </div>
                 <div className="tekup-iconbox-data2">
-                  <a href="/single-service.html">
+                  <a href="/">
                     <h5>Testing & Maintenance</h5>
                   </a>
                   <p>We ensure optimal performance through thorough testing and maintenance, keeping your systems running smoothly.</p>
