@@ -16,7 +16,7 @@ const WorkingProcessSection = () => {
                   <div className="tekup-iconbox-count">01</div>
                 </div>
                 <div className="tekup-iconbox-data2">
-                  <a href="/single-service.html">
+                  <a href="/">
                     <h5>Initiation & Planning</h5>
                   </a>
                   <p>We lay the groundwork for success, developing strategic plans that align with your vision and objectives.</p>
@@ -30,7 +30,7 @@ const WorkingProcessSection = () => {
                   <div className="tekup-iconbox-count">02</div>
                 </div>
                 <div className="tekup-iconbox-data2">
-                  <a href="/single-service.html">
+                  <a href="/">
                     <h5>Execution & Development</h5>
                   </a>
                   <p>We turn plans into reality, delivering high-quality solutions that meet your needs and exceed expectations.</p>

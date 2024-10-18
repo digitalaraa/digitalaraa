@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-xl-3 col-lg-12">
               <div className="tekup-footer-textarea light-color">
-                <a href="index.html">
+                <a href="/">
                   <img src={digitalaraaLogo} alt="Digital Araa Logo" />
 
                 </a>
@@ -62,11 +62,11 @@ const Footer = () => {
                   <h5>Services</h5>
                 </div>
                 <ul>
-                  <li><a href="">UI/UX Design</a></li>
-                  <li><a href="">App Development</a></li>
-                  <li><a href="">Digital Marketing</a></li>
-                  <li><a href="">Web Development</a></li>
-                  <li><a href="">Cyber Security</a></li>
+                  <li><a href="/">UI/UX Design</a></li>
+                  <li><a href="/">App Development</a></li>
+                  <li><a href="/">Digital Marketing</a></li>
+                  <li><a href="/">Web Development</a></li>
+                  <li><a href="/">Socialmedia Marketing</a></li>
                 </ul>
               </div>
             </div>

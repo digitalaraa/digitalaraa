@@ -14,7 +14,7 @@ const ITServicesSection = () => {
             <img src="/assets/images/v2/icon3.png" alt="" />
           </div>
           <div className="tekup-iconbox-data3">
-            <a href="/single-service.html">
+            <a href="/">
               <h5>Web Development</h5>
             </a>
             <p>We create innovative websites, leading the way in technology and partnering with you for success.</p>
@@ -28,7 +28,7 @@ const ITServicesSection = () => {
             <img src="/assets/images/v2/icon6.png" alt="" />
           </div>
           <div className="tekup-iconbox-data3">
-            <a href="/single-service.html">
+            <a href="/">
               <h5>Digital Marketing</h5>
             </a>
             <p>We design effective digital marketing strategies that drive growth and measurable success.</p>
@@ -42,7 +42,7 @@ const ITServicesSection = () => {
             <img src="/assets/images/v2/icon4.png" alt="" />
           </div>
           <div className="tekup-iconbox-data3">
-            <a href="/single-service.html">
+            <a href="/">
               <h5>App Development</h5>
             </a>
             <p>We build cutting-edge applications, pioneering solutions that enhance user engagement and drive success.</p>
@@ -56,7 +56,7 @@ const ITServicesSection = () => {
             <img src="/assets/images/v2/icon7.png" alt="" />
           </div>
           <div className="tekup-iconbox-data3">
-            <a href="/single-service.html">
+            <a href="/">
               <h5>IT Management</h5>
             </a>
             <p>We streamline IT operations, ensuring efficient solutions that support your business goals and growth.</p>

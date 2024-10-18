@@ -29,7 +29,7 @@
 //                 </div>
 //               </div>
 //               <div className="tekup-team-data">
-//                 <a href="single-team.html">
+//                 <a href="/">
 //                   <h5>Marvin McKinney</h5>
 //                 </a>
 //                 <p>CEO & Founder</p>
@@ -51,7 +51,7 @@
 //                 </div>
 //               </div>
 //               <div className="tekup-team-data">
-//                 <a href="single-team.html">
+//                 <a href="/">
 //                   <h5>Sophia Rodriguez</h5>
 //                 </a>
 //                 <p>Creative Director</p>
@@ -73,7 +73,7 @@
 //                 </div>
 //               </div>
 //               <div className="tekup-team-data">
-//                 <a href="single-team.html">
+//                 <a href="/">
 //                   <h5>Alexander Cameron</h5>
 //                 </a>
 //                 <p>Lead Developer</p>
@@ -95,7 +95,7 @@
 //                 </div>
 //               </div>
 //               <div className="tekup-team-data">
-//                 <a href="single-team.html">
+//                 <a href="/">
 //                   <h5>Brooklyn Simmons</h5>
 //                 </a>
 //                 <p>Product Designer</p>
@@ -119,28 +119,28 @@ const teamMembers = [
     name: "Marvin McKinney",
     role: "CEO & Founder",
     image: "/assets/images/team/team1.png",
-    link: "single-team.html",
+    link: "/",
   },
   {
     id: 2,
     name: "Sophia Rodriguez",
     role: "Creative Director",
     image: "/assets/images/team/team2.png",
-    link: "single-team.html",
+    link: "/",
   },
   {
     id: 3,
     name: "Alexander Cameron",
     role: "Lead Developer",
     image: "/assets/images/team/team3.png",
-    link: "single-team.html",
+    link: "/",
   },
   {
     id: 4,
     name: "Brooklyn Simmons",
     role: "Product Designer",
     image: "/assets/images/team/team4.png",
-    link: "single-team.html",
+    link: "/",
   },
 ];
 

@@ -24,7 +24,7 @@
 //                 <img src="/assets/images/v2/icon3.png" alt="Web Development" />
 //               </div>
 //               <div className="tekup-iconbox-data3">
-//                 <Link to="/single-service.html">
+//                 <Link to="/">
 //                   <h5>Web Development</h5>
 //                 </Link>
 //                 <p>We are architects of technological advancement and partners in your success.</p>
@@ -35,7 +35,7 @@
 //                 <img src="/assets/images/v2/icon6.png" alt="Digital Marketing" />
 //               </div>
 //               <div className="tekup-iconbox-data3">
-//                 <Link to="/single-service.html">
+//                 <Link to="/">
 //                   <h5>Digital Marketing</h5>
 //                 </Link>
 //                 <p>We are architects of technological advancement and partners in your success.</p>
@@ -50,7 +50,7 @@
 //                 <img src="/assets/images/v2/icon4.png" alt="App Development" />
 //               </div>
 //               <div className="tekup-iconbox-data3">
-//                 <Link to="/single-service.html">
+//                 <Link to="/">
 //                   <h5>App Development</h5>
 //                 </Link>
 //                 <p>We are architects of technological advancement and partners in your success.</p>
@@ -61,7 +61,7 @@
 //                 <img src="/assets/images/v2/icon7.png" alt="IT Management" />
 //               </div>
 //               <div className="tekup-iconbox-data3">
-//                 <Link to="/single-service.html">
+//                 <Link to="/">
 //                   <h5>IT Management</h5>
 //                 </Link>
 //                 <p>We are architects of technological advancement and partners in your success.</p>
@@ -78,7 +78,7 @@
 //                     <img src="/assets/images/v2/icon5.png" alt="UI/UX Design" />
 //                   </div>
 //                   <div className="tekup-iconbox-data3">
-//                     <Link to="/single-service.html">
+//                     <Link to="/">
 //                       <h5>UI/UX Design</h5>
 //                     </Link>
 //                     <p>We are architects of technological advancement and partners in your success.</p>
@@ -91,7 +91,7 @@
 //                     <img src="/assets/images/v2/icon8.png" alt="Content Writing" />
 //                   </div>
 //                   <div className="tekup-iconbox-data3">
-//                     <Link to="/single-service.html">
+//                     <Link to="/">
 //                       <h5>Content Writing</h5>
 //                     </Link>
 //                     <p>We are architects of technological advancement and partners in your success.</p>
@@ -127,42 +127,42 @@ const services = [
     title: "Web Development",
     description: "We build websites that provide seamless experiences and drive business growth.",
     image: "/assets/images/v2/icon3.png",
-    link: "/single-service.html",
+    link: "/",
   },
   {
     id: 2,
     title: "Digital Marketing",
     description: "We design effective digital marketing strategies that drive growth and measurable success.",
     image: "/assets/images/v2/icon6.png",
-    link: "/single-service.html",
+    link: "/",
   },
   {
     id: 3,
     title: "App Development",
     description: "We create app solutions that deliver exceptional performance and user engagement.",
     image: "/assets/images/v2/icon4.png",
-    link: "/single-service.html",
+    link: "/",
   },
   {
     id: 4,
     title: "IT Management",
     description: "We streamline IT operations to enhance efficiency and support your business goals.",
     image: "/assets/images/v2/icon7.png",
-    link: "/single-service.html",
+    link: "/",
   },
   {
     id: 5,
     title: "UI/UX Design",
     description: "We create intuitive designs that enhance user experiences and drive engagement.",
     image: "/assets/images/v2/icon5.png",
-    link: "/single-service.html",
+    link: "/",
   },
   {
     id: 6,
     title: "Social Media Marketing",
     description: "We develop engaging campaigns that connect your brand with the right audience.",
     image: "/assets/images/v2/icon8.png",
-    link: "/single-service.html",
+    link: "/",
   },
 ];
 
@@ -200,7 +200,7 @@ const ServicesSection = () => {
 
         {/* Button */}
         <div className="text-center tekup-extra-mt">
-          <Link className="tekup-default-btn" to="/services.html" aria-label="View all services">
+          <Link className="tekup-default-btn" to="/" aria-label="View all services">
             All Services <i className="ri-arrow-right-up-line"></i>
           </Link>
         </div>

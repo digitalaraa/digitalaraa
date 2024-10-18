@@ -214,7 +214,7 @@ const ContentPage = () => {
             ))}
           </div>
           <div className="tekup-center-btn">
-            <a className="tekup-default-btn" href="portfolio-01.html">View All Projects <i className="ri-arrow-right-up-line"></i></a>
+            <a className="tekup-default-btn" href="/">View All Projects <i className="ri-arrow-right-up-line"></i></a>
           </div>
         </div>
       </div>
