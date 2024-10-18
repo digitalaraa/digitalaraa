@@ -7038,3 +7038,8 @@ button#tekup-notified-btn {
 
 /*1.4 themes css*/
 /*# sourceMappingURL=app.css.map */
+
+.tekup-accordion-item.open .tekup-accordion-body {
+  display: block;
+  max-height: 100% !important;
+}

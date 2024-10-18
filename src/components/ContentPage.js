@@ -33,11 +33,11 @@
 //                 <div className="tekup-portfolio-thumb2">
 //                   <img src="/assets/images/p2/p_1.png" alt="Design of the year" />
 //                   <div className="tekup-portfolio-data2">
-//                     <a href="single-portfolio.html">
+//                     <a href="/">
 //                       <h5>Design of the year</h5>
 //                     </a>
 //                     <p>UI/UX Design</p>
-//                     <a className="tekup-portfolio-btn2" href="single-portfolio.html">
+//                     <a className="tekup-portfolio-btn2" href="/">
 //                       <i className="ri-arrow-right-up-line"></i>
 //                     </a>
 //                   </div>
@@ -50,11 +50,11 @@
 //                 <div className="tekup-portfolio-thumb2">
 //                   <img src="/assets/images/p2/p_2.png" alt="Ways to level up your brand" />
 //                   <div className="tekup-portfolio-data2">
-//                     <a href="single-portfolio.html">
+//                     <a href="/">
 //                       <h5>Ways to level up your brand</h5>
 //                     </a>
 //                     <p>Branding</p>
-//                     <a className="tekup-portfolio-btn2" href="single-portfolio.html">
+//                     <a className="tekup-portfolio-btn2" href="/">
 //                       <i className="ri-arrow-right-up-line"></i>
 //                     </a>
 //                   </div>
@@ -67,11 +67,11 @@
 //                 <div className="tekup-portfolio-thumb2">
 //                   <img src="/assets/images/p2/p_3.png" alt="Cyber Security Analysis" />
 //                   <div className="tekup-portfolio-data2">
-//                     <a href="single-portfolio.html">
+//                     <a href="/">
 //                       <h5>Cyber Security Analysis</h5>
 //                     </a>
 //                     <p>Technology</p>
-//                     <a className="tekup-portfolio-btn2" href="single-portfolio.html">
+//                     <a className="tekup-portfolio-btn2" href="/">
 //                       <i className="ri-arrow-right-up-line"></i>
 //                     </a>
 //                   </div>
@@ -84,11 +84,11 @@
 //                 <div className="tekup-portfolio-thumb2">
 //                   <img src="/assets/images/p2/p_4.png" alt="Design Discussion" />
 //                   <div className="tekup-portfolio-data2">
-//                     <a href="single-portfolio.html">
+//                     <a href="/">
 //                       <h5>Design Discussion</h5>
 //                     </a>
 //                     <p>Design</p>
-//                     <a className="tekup-portfolio-btn2" href="single-portfolio.html">
+//                     <a className="tekup-portfolio-btn2" href="/">
 //                       <i className="ri-arrow-right-up-line"></i>
 //                     </a>
 //                   </div>
@@ -101,11 +101,11 @@
 //                 <div className="tekup-portfolio-thumb2">
 //                   <img src="/assets/images/p2/p_5.png" alt="Product Security Analysis" />
 //                   <div className="tekup-portfolio-data2">
-//                     <a href="single-portfolio.html">
+//                     <a href="/">
 //                       <h5>Product Security Analysis</h5>
 //                     </a>
 //                     <p>Product</p>
-//                     <a className="tekup-portfolio-btn2" href="single-portfolio.html">
+//                     <a className="tekup-portfolio-btn2" href="/">
 //                       <i className="ri-arrow-right-up-line"></i>
 //                     </a>
 //                   </div>
@@ -142,35 +142,35 @@ const projectData = [
     title: "Design of the year",
     category: "UI/UX Design",
     image: "/assets/images/p2/p_1.png",
-    link: "single-portfolio.html",
+    link: "/",
   },
   {
     id: 2,
     title: "Ways to level up your brand",
     category: "Branding",
     image: "/assets/images/p2/p_2.png",
-    link: "single-portfolio.html",
+    link: "/",
   },
   {
     id: 3,
     title: "Cyber Security Analysis",
     category: "Technology",
     image: "/assets/images/p2/p_3.png",
-    link: "single-portfolio.html",
+    link: "/",
   },
   {
     id: 4,
     title: "Design Discussion",
     category: "Design",
     image: "/assets/images/p2/p_4.png",
-    link: "single-portfolio.html",
+    link: "/",
   },
   {
     id: 5,
     title: "Product Security Analysis",
     category: "Product",
     image: "/assets/images/p2/p_5.png",
-    link: "single-portfolio.html",
+    link: "/",
   },
 ];
 

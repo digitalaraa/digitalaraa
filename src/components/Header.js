@@ -227,7 +227,7 @@ const Header = () => {
                 <div className="tekup-header-search">
                   {/* <i className="ri-search-line"></i> */}
                 </div>
-                <Link className="tekup-default-btn tekup-header-btn" to="/contact-us">Get in Touch <i className="ri-arrow-right-up-line"></i></Link>
+                <Link className="tekup-default-btn tekup-header-btn" to="/contact">Get in Touch <i className="ri-arrow-right-up-line"></i></Link>
               </div>
             </div>
           </nav>

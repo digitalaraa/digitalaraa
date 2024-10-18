@@ -150,7 +150,7 @@ const HeroSlider = () => {
               We are innovators in technology and partners in your success. As a dynamic company, we drive your growth forward.
               </p>
               <div className="tekup-extra-mt" data-aos="fade-up" data-aos-duration="600">
-                <Link className="tekup-default-btn" to="/contact-us">
+                <Link className="tekup-default-btn" to="/contacts">
                   Start a Project <i className="ri-arrow-right-up-line"></i>
                 </Link>
               </div>

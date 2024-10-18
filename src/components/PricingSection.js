@@ -15,7 +15,7 @@ const PricingSection = () => {
                 <h4>Startup</h4>
                 <p>Designed for new businesses looking to establish their online presence.</p>
               </div>
-              <a className="tekup-pricing-btn" href="contact-us.html">Get Started <i className="ri-arrow-right-up-line"></i></a>
+              <a className="tekup-pricing-btn" href="/contact">Get Started <i className="ri-arrow-right-up-line"></i></a>
               <div className="tekup-pricing-feature">
                 <ul>
                   <li><i className="ri-check-line"></i>Custom website design</li>
@@ -53,7 +53,7 @@ const PricingSection = () => {
                 <h4>Enterprise</h4>
                 <p>Comprehensive solutions for large businesses with complex needs.</p>
               </div>
-              <a className="tekup-pricing-btn" href="contact-us.html">Get Started <i className="ri-arrow-right-up-line"></i></a>
+              <a className="tekup-pricing-btn" href="/contact">Get Started <i className="ri-arrow-right-up-line"></i></a>
               <div className="tekup-pricing-feature">
                 <ul>
                   <li><i className="ri-check-line"></i>Custom software development</li>

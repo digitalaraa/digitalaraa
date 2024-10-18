@@ -90,13 +90,13 @@ const TestimonialsAndBlog = () => {
                 <div className="tekup-blog-thumb2">
                   <img src="/assets/images/blog/blog4.png" alt="" />
                   <div className="tekup-blog-content2">
-                    <a href="single-blog.html">
+                    <a href="/">
                       <h3>Technology support allows Erie non-profit to serve</h3>
                     </a>
                     <div className="tekup-blog-meta tekup-blog-meta2">
                       <ul>
-                        <li><a href="single-blog.html">Technology</a></li>
-                        <li><a href="single-blog.html">26 June 2023</a></li>
+                        <li><a href="/">Technology</a></li>
+                        <li><a href="/">26 June 2023</a></li>
                       </ul>
                     </div>
                   </div>
@@ -108,13 +108,13 @@ const TestimonialsAndBlog = () => {
                 <div className="tekup-blog-thumb2">
                   <img src="/assets/images/blog/blog5.png" alt="" />
                   <div className="tekup-blog-content2">
-                    <a href="single-blog.html">
+                    <a href="/">
                       <h3>The act of knowledge & the act of design thinking</h3>
                     </a>
                     <div className="tekup-blog-meta tekup-blog-meta2">
                       <ul>
-                        <li><a href="single-blog.html">Technology</a></li>
-                        <li><a href="single-blog.html">26 June 2023</a></li>
+                        <li><a href="/">Technology</a></li>
+                        <li><a href="/">26 June 2023</a></li>
                       </ul>
                     </div>
                   </div>
@@ -126,13 +126,13 @@ const TestimonialsAndBlog = () => {
                 <div className="tekup-blog-thumb2">
                   <img src="/assets/images/blog/blog6.png" alt="" />
                   <div className="tekup-blog-content2">
-                    <a href="single-blog.html">
+                    <a href="/">
                       <h3>Core on web vitals, a SMAS magazine case study</h3>
                     </a>
                     <div className="tekup-blog-meta tekup-blog-meta2">
                       <ul>
-                        <li><a href="single-blog.html">Technology</a></li>
-                        <li><a href="single-blog.html">26 June 2023</a></li>
+                        <li><a href="/">Technology</a></li>
+                        <li><a href="/">26 June 2023</a></li>
                       </ul>
                     </div>
                   </div>

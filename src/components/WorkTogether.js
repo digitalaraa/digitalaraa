@@ -9,7 +9,7 @@ const WorkTogether = () => {
             <h2>Let’s work together</h2>
             <p>We collaborate closely with you, combining our expertise to achieve shared goals and drive success.</p>
             <div className="tekup-extra-mt" data-aos="fade-up" data-aos-duration="600">
-              <a className="tekup-default-btn tekup-white-btn" href="/contact-us.html">Start a Project <i className="ri-arrow-right-up-line"></i></a>
+              <a className="tekup-default-btn tekup-white-btn" href="/contact">Start a Project <i className="ri-arrow-right-up-line"></i></a>
             </div>
           </div>
         </div>
