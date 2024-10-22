@@ -1,6 +1,7 @@
 import React from "react";
 import ProgressCircle from '../components/ProgressCircle'; // Adjust path as needed
 import digitalaraaLogo from '../../static/assets/images/logo/digitalaraa-logo.png'; // Ensure to include the file extension
+import NewsletterSubscription from "./NewsletterSubscription";
 
 const Footer = () => {
   return (
@@ -49,9 +50,9 @@ const Footer = () => {
                 </div>
                 <ul>
                   <li><a href="/about">About Us</a></li>
+                  <li><a href="/services">Our Services</a></li>
                   <li><a href="/">Our Team</a></li>
-                  <li><a href="/">Pricing</a></li>
-                  <li><a href="/blog">Blogs</a></li>
+                  <li><a href="/faq">Faqs</a></li>
                   <li><a href="/contact">Contact Us</a></li>
                 </ul>
               </div>
@@ -62,28 +63,15 @@ const Footer = () => {
                   <h5>Services</h5>
                 </div>
                 <ul>
-                  <li><a href="/">UI/UX Design</a></li>
-                  <li><a href="/">App Development</a></li>
-                  <li><a href="/">Digital Marketing</a></li>
-                  <li><a href="/">Web Development</a></li>
-                  <li><a href="/">Socialmedia Marketing</a></li>
+                  <li><a href="/uiuxdesign">UI/UX Design</a></li>
+                  <li><a href="/appdevelopment">App Development</a></li>
+                  <li><a href="/digitalmarketing">Digital Marketing</a></li>
+                  <li><a href="/webdevelopment">Web Development</a></li>
+                  <li><a href="/itManagement">IT Management</a></li>
                 </ul>
               </div>
             </div>
-            <div className="col-xl-3 col-md-5">
-              <div className="tekup-footer-title light-color">
-                <h5>Subscribe Our Newsletter</h5>
-                <p>Get ready to work together for the better solution for your business</p>
-              </div>
-              <div className="tekup-subscription">
-                <form action="#">
-                  <input type="email" placeholder="Enter your email" />
-                  <button id="tekup-subscription-btn" type="button">
-                    <i className="ri-send-plane-fill"></i>
-                  </button>
-                </form>
-              </div>
-            </div>
+            <NewsletterSubscription />
           </div>
         </div>
         <div className="tekup-footer-bottom">
@@ -96,8 +84,8 @@ const Footer = () => {
             <div className="col-md-6">
               <div className="tekup-footer-menu light-color style-two right mb-0">
                 <ul>
-                  <li><a href="">Privacy Policy</a></li>
-                  <li><a href="">Terms & Conditions</a></li>
+                  <li><a href="/privacypolicy">Privacy Policy</a></li>
+                  <li><a href="/termsconditions">Terms & Conditions</a></li>
                 </ul>
               </div>
             </div>

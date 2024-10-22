@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { Link } from 'gatsby';
 
 // Import images from the assets folder
-import thumb1 from '../../static/assets/images/hero/6.jpg';
+import thumb1 from '../../static/assets/images/hero/home-about-banner.jpg';
 import rating from '../../static/assets/images/v3/rating.png';
 import icon1 from '../../static/assets/images/v2/icon1.png';
 import icon2 from '../../static/assets/images/v2/icon2.png';
