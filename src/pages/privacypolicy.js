@@ -34,7 +34,7 @@ const PrivacyPolicy = () => {
       <Layout>
         <Header />
 
-        <div className="tekup-breadcrumb" style={{ backgroundImage: 'url(assets/images/breadcrumb/breadcrumb.png)' }}>
+        <div className="tekup-breadcrumb" style={{ backgroundImage: 'url(/assets/images/hero/privacy-banner-2.jpg)' }}>
           <div className="container">
             <h1 className="post__title">Privacy Policy</h1>
             <nav className="breadcrumbs">

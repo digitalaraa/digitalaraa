@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet';
 import Layout from '../components/layout';
 import Header from '../components/Header';
 import ContactSection from '../components/ContactSection';
+import ServiceSidebar from '../components/ServiceSidebar';
 
 const ITManagement = () => {
   useEffect(() => {
@@ -33,7 +34,7 @@ const ITManagement = () => {
 
       <Layout>
         <Header />
-        <div className="tekup-breadcrumb" style={{ backgroundImage: 'url(/assets/images/breadcrumb/breadcrumb.png)' }}>
+        <div className="tekup-breadcrumb" style={{ backgroundImage: 'url(/assets/images/hero/itmanagement-banner.jpg)' }}>
           <div className="container">
             <h1 className="post__title">IT Management</h1>
             <nav className="breadcrumbs">
@@ -50,7 +51,7 @@ const ITManagement = () => {
             <div className="row">
               <div className="col-lg-8">
                 <div className="tekup-service-details-wrap" data-aos="fade-up" data-aos-duration="600">
-                  <img src="/assets/images/service/service-it-management.png" alt="IT Management" />
+                  <img src="/assets/images/hero/itmanagement-banner-1.jpg" alt="IT Management" />
                   <div className="tekup-service-details-item">
                     <h3>Overview</h3>
                     <p>Our IT Management services are designed to streamline your business operations, ensuring that your IT infrastructure is efficient, secure, and scalable. From network management to cloud solutions, we provide the expertise to keep your business running smoothly.</p>
@@ -72,24 +73,7 @@ const ITManagement = () => {
                 </div>
               </div>
               <div className="col-lg-4">
-                <div className="tekup-service-sidebar">
-                  <div className="tekup-service-menu">
-                    <ul>
-                      <li><a href="/web-development">Web Development <i className="ri-arrow-right-up-line"></i></a></li>
-                      <li><a href="/app-development">App Development <i className="ri-arrow-right-up-line"></i></a></li>
-                      <li><a href="/ui-ux-design">UI/UX Design <i className="ri-arrow-right-up-line"></i></a></li>
-                      <li><a href="/digital-marketing">Digital Marketing <i className="ri-arrow-right-up-line"></i></a></li>
-                      <li><a href="/social-media-marketing">Social Media Marketing <i className="ri-arrow-right-up-line"></i></a></li>
-                      <li><a href="/cyber-security">Cyber Security <i className="ri-arrow-right-up-line"></i></a></li>
-                    </ul>
-                  </div>
-                  <div className="tekup-service-contact" data-aos="fade-up" data-aos-duration="600" style={{ backgroundImage: 'url(/assets/images/service/bg.png)' }}>
-                    <img src="/assets/images/service/icon.png" alt="Contact Us" />
-                    <h3>Don’t hesitate to contact us</h3>
-                    <p>Our IT management experts are here to help you streamline your operations and maximize the potential of your technology.</p>
-                    <a className="tekup-default-btn tekup-white-btn" href="/contact-us">Get in Touch <i className="ri-arrow-right-up-line"></i></a>
-                  </div>
-                </div>
+              <ServiceSidebar />
               </div>
             </div>
           </div>

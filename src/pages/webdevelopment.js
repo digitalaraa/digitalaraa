@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import Layout from '../components/layout';
 import Header from '../components/Header';
+import ServiceSidebar from '../components/ServiceSidebar';
 
 const WebDevelopment = () => {
   useEffect(() => {
@@ -32,7 +33,7 @@ const WebDevelopment = () => {
 
       <Layout>
         <Header />
-        <div className="tekup-breadcrumb" style={{ backgroundImage: 'url(/assets/images/breadcrumb/breadcrumb.png)' }}>
+        <div className="tekup-breadcrumb" style={{ backgroundImage: 'url(/assets/images/hero/web-development-banner-2.jpg)' }}>
           <div className="container">
             <h1 className="post__title">Web Development</h1>
             <nav className="breadcrumbs">
@@ -44,13 +45,12 @@ const WebDevelopment = () => {
           </div>
         </div>
         {/* End breadcrumb */}
-
         <div className="section tekup-section-padding">
           <div className="container">
             <div className="row">
               <div className="col-lg-8">
                 <div className="tekup-service-details-wrap" data-aos="fade-up" data-aos-duration="600">
-                  <img src="/assets/images/service/service-details.png" alt="Service Details" />
+                  <img src="/assets/images/hero/web-development-banner-1.jpg" alt="Service Details" />
                   <div className="tekup-service-details-item">
                     <h3>Overview</h3>
                     <p>A content management system helps you create, manage, and publish content on the web. It keeps content organized and accessible for easy repurposing.</p>
@@ -77,24 +77,7 @@ const WebDevelopment = () => {
               </div>
 
               <div className="col-lg-4">
-                <div className="tekup-service-sidebar">
-                  <div className="tekup-service-menu">
-                    <ul>
-                      <li><a href="#">Web Development <i className="ri-arrow-right-up-line"></i></a></li>
-                      <li><a href="#">App Development <i className="ri-arrow-right-up-line"></i></a></li>
-                      <li><a href="#">UI/UX Design <i className="ri-arrow-right-up-line"></i></a></li>
-                      <li><a href="#">Digital Marketing <i className="ri-arrow-right-up-line"></i></a></li>
-                      <li><a href="#">IT Management <i className="ri-arrow-right-up-line"></i></a></li>
-                      <li><a href="#">Cyber Security <i className="ri-arrow-right-up-line"></i></a></li>
-                    </ul>
-                  </div>
-                  <div className="tekup-service-contact" data-aos="fade-up" data-aos-duration="600" style={{ backgroundImage: 'url(/assets/images/service/bg.png)' }}>
-                    <img src="/assets/images/service/icon.png" alt="Contact Icon" />
-                    <h3>Don't hesitate to contact us</h3>
-                    <p>At Digital Araa, we are committed to providing exceptional IT solutions and services.</p>
-                    <a className="tekup-default-btn tekup-white-btn" href="/contact-us">Get in Touch <i className="ri-arrow-right-up-line"></i></a>
-                  </div>
-                </div>
+              <ServiceSidebar />
               </div>
             </div>
           </div>

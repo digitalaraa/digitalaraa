@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet';
 import Layout from '../components/layout';
 import Header from '../components/Header';
 import ContactSection from '../components/ContactSection';
+import ServiceSidebar from '../components/ServiceSidebar';
 
 const DigitalMarketing = () => {
   useEffect(() => {
@@ -33,7 +34,7 @@ const DigitalMarketing = () => {
 
       <Layout>
         <Header />
-        <div className="tekup-breadcrumb" style={{ backgroundImage: 'url(/assets/images/hero/social-media-banner.jpg)' }}>
+        <div className="tekup-breadcrumb" style={{ backgroundImage: 'url(/assets/images/hero/banner.jpg)' }}>
           <div className="container">
             <h1 className="post__title">Digital Marketing</h1>
             <nav className="breadcrumbs">
@@ -50,7 +51,7 @@ const DigitalMarketing = () => {
             <div className="row">
               <div className="col-lg-8">
                 <div className="tekup-service-details-wrap" data-aos="fade-up" data-aos-duration="600">
-                  <img src="/assets/images/hero/social-media-banner.jpg" alt="Digital Marketing" />
+                  <img src="/assets/images/hero/4.jpg" alt="Digital Marketing" />
                   <div className="tekup-service-details-item">
                     <h3>Overview</h3>
                     <p>Our Digital Marketing services help businesses connect with their target audience online. We specialize in SEO, social media marketing, content creation, and paid campaigns that drive traffic and improve brand awareness.</p>
@@ -72,24 +73,7 @@ const DigitalMarketing = () => {
                 </div>
               </div>
               <div className="col-lg-4">
-                <div className="tekup-service-sidebar">
-                  <div className="tekup-service-menu">
-                    <ul>
-                      <li><a href="/web-development">Web Development <i className="ri-arrow-right-up-line"></i></a></li>
-                      <li><a href="/app-development">App Development <i className="ri-arrow-right-up-line"></i></a></li>
-                      <li><a href="/ui-ux-design">UI/UX Design <i className="ri-arrow-right-up-line"></i></a></li>
-                      <li><a href="/digital-marketing">Digital Marketing <i className="ri-arrow-right-up-line"></i></a></li>
-                      <li><a href="/it-management">IT Management <i className="ri-arrow-right-up-line"></i></a></li>
-                      <li><a href="/cyber-security">Cyber Security <i className="ri-arrow-right-up-line"></i></a></li>
-                    </ul>
-                  </div>
-                  <div className="tekup-service-contact" data-aos="fade-up" data-aos-duration="600" style={{ backgroundImage: 'url(/assets/images/service/bg.png)' }}>
-                    <img src="/assets/images/service/icon.png" alt="Contact Us" />
-                    <h3>Don’t hesitate to contact us</h3>
-                    <p>We are here to help with your digital marketing needs and ensure your online success.</p>
-                    <a className="tekup-default-btn tekup-white-btn" href="/contact-us">Get in Touch <i className="ri-arrow-right-up-line"></i></a>
-                  </div>
-                </div>
+                  <ServiceSidebar />
               </div>
             </div>
           </div>

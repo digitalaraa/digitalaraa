@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet';
 import Layout from '../components/layout';
 import Header from '../components/Header';
 import ContactSection from '../components/ContactSection';
+import ServiceSidebar from '../components/ServiceSidebar';
 
 const UIUXDesign = () => {
   useEffect(() => {
@@ -73,21 +74,7 @@ const UIUXDesign = () => {
                 </div>
               </div>
               <div className="col-lg-4">
-                <div className="tekup-service-sidebar">
-                  <div className="tekup-service-menu">
-                    <ul>
-                      <li><a href="/web-development/">Web Development <i className="ri-arrow-right-up-line"></i></a></li>
-                      <li><a href="/app-development/">App Development <i className="ri-arrow-right-up-line"></i></a></li>
-                      <li><a href="/digital-marketing/">Digital Marketing <i className="ri-arrow-right-up-line"></i></a></li>
-                    </ul>
-                  </div>
-                  <div className="tekup-service-contact" data-aos="fade-up" data-aos-duration="600" style={{ backgroundImage: 'url(/assets/images/service/bg.png)' }}>
-                    <img src="/assets/images/service/icon.png" alt="Service Icon" />
-                    <h3>Need help with your project?</h3>
-                    <p>We are committed to delivering top-notch digital solutions tailored to your needs.</p>
-                    <a className="tekup-default-btn tekup-white-btn" href="/contact/">Get in Touch <i className="ri-arrow-right-up-line"></i></a>
-                  </div>
-                </div>
+              <ServiceSidebar />
               </div>
             </div>
           </div>

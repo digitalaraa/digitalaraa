@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet';
 import Layout from '../components/layout';
 import Header from '../components/Header';
 import ContactSection from '../components/ContactSection';
+import ServiceSidebar from '../components/ServiceSidebar';
 
 const SocialMediaMarketing = () => {
   useEffect(() => {
@@ -72,24 +73,7 @@ const SocialMediaMarketing = () => {
                 </div>
               </div>
               <div className="col-lg-4">
-                <div className="tekup-service-sidebar">
-                  <div className="tekup-service-menu">
-                    <ul>
-                      <li><a href="/web-development">Web Development <i className="ri-arrow-right-up-line"></i></a></li>
-                      <li><a href="/app-development">App Development <i className="ri-arrow-right-up-line"></i></a></li>
-                      <li><a href="/ui-ux-design">UI/UX Design <i className="ri-arrow-right-up-line"></i></a></li>
-                      <li><a href="/digital-marketing">Digital Marketing <i className="ri-arrow-right-up-line"></i></a></li>
-                      <li><a href="/it-management">IT Management <i className="ri-arrow-right-up-line"></i></a></li>
-                      <li><a href="/cyber-security">Cyber Security <i className="ri-arrow-right-up-line"></i></a></li>
-                    </ul>
-                  </div>
-                  <div className="tekup-service-contact" data-aos="fade-up" data-aos-duration="600" style={{ backgroundImage: 'url(/assets/images/service/bg.png)' }}>
-                    <img src="/assets/images/service/icon.png" alt="Contact Us" />
-                    <h3>Don’t hesitate to contact us</h3>
-                    <p>Get in touch to discuss how we can enhance your social media strategy and drive engagement.</p>
-                    <a className="tekup-default-btn tekup-white-btn" href="/contact-us">Get in Touch <i className="ri-arrow-right-up-line"></i></a>
-                  </div>
-                </div>
+              <ServiceSidebar />
               </div>
             </div>
           </div>
