@@ -31,7 +31,7 @@
 //             <div className="col-xl-4 col-md-6">
 //               <div className="tekup-portfolio-wrap2" data-aos="fade-up" data-aos-duration="400">
 //                 <div className="tekup-portfolio-thumb2">
-//                   <img src="/assets/images/p2/p_1.png" alt="Design of the year" />
+//                   <img src="/assets/images/hero/about-us.jpg" alt="Design of the year" />
 //                   <div className="tekup-portfolio-data2">
 //                     <a href="/">
 //                       <h5>Design of the year</h5>
@@ -48,7 +48,7 @@
 //             <div className="col-xl-4 col-md-6">
 //               <div className="tekup-portfolio-wrap2" data-aos="fade-up" data-aos-duration="600">
 //                 <div className="tekup-portfolio-thumb2">
-//                   <img src="/assets/images/p2/p_2.png" alt="Ways to level up your brand" />
+//                   <img src="/assets/images/hero/p_2.png" alt="Ways to level up your brand" />
 //                   <div className="tekup-portfolio-data2">
 //                     <a href="/">
 //                       <h5>Ways to level up your brand</h5>
@@ -65,7 +65,7 @@
 //             <div className="col-xl-4 col-md-6">
 //               <div className="tekup-portfolio-wrap2" data-aos="fade-up" data-aos-duration="800">
 //                 <div className="tekup-portfolio-thumb2">
-//                   <img src="/assets/images/p2/p_3.png" alt="Cyber Security Analysis" />
+//                   <img src="/assets/images/hero/p_3.png" alt="Cyber Security Analysis" />
 //                   <div className="tekup-portfolio-data2">
 //                     <a href="/">
 //                       <h5>Cyber Security Analysis</h5>
@@ -82,7 +82,7 @@
 //             <div className="col-xl-4 col-md-6">
 //               <div className="tekup-portfolio-wrap2" data-aos="fade-up" data-aos-duration="1000">
 //                 <div className="tekup-portfolio-thumb2">
-//                   <img src="/assets/images/p2/p_4.png" alt="Design Discussion" />
+//                   <img src="/assets/images/hero/p_4.png" alt="Design Discussion" />
 //                   <div className="tekup-portfolio-data2">
 //                     <a href="/">
 //                       <h5>Design Discussion</h5>
@@ -99,7 +99,7 @@
 //             <div className="col-xl-8 col-md-12">
 //               <div className="tekup-portfolio-wrap2" data-aos="fade-up" data-aos-duration="1200">
 //                 <div className="tekup-portfolio-thumb2">
-//                   <img src="/assets/images/p2/p_5.png" alt="Product Security Analysis" />
+//                   <img src="/assets/images/hero/p_5.png" alt="Product Security Analysis" />
 //                   <div className="tekup-portfolio-data2">
 //                     <a href="/">
 //                       <h5>Product Security Analysis</h5>
@@ -141,35 +141,36 @@ const projectData = [
     id: 1,
     title: "Design of the year",
     category: "UI/UX Design",
-    image: "/assets/images/p2/p_1.png",
+    image: "/assets/images/hero/project-1.jpg",
     link: "/",
   },
   {
     id: 2,
     title: "Ways to level up your brand",
     category: "Branding",
-    image: "/assets/images/p2/p_2.png",
+    image: "/assets/images/hero/project-2.jpg",
     link: "/",
   },
   {
     id: 3,
     title: "Cyber Security Analysis",
     category: "Technology",
-    image: "/assets/images/p2/p_3.png",
+    image: "/assets/images/hero/project-3.jpg",
     link: "/",
   },
   {
     id: 4,
     title: "Design Discussion",
     category: "Design",
-    image: "/assets/images/p2/p_4.png",
+    image: "/assets/images/hero/project-4.jpg",
     link: "/",
   },
   {
     id: 5,
     title: "Product Security Analysis",
     category: "Product",
-    image: "/assets/images/p2/p_5.png",
+    image: "/assets/images/hero/project-5.jpg",
+    //image: "/assets/images/p2/p_1.png",
     link: "/",
   },
 ];

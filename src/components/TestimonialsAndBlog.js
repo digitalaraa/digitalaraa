@@ -88,7 +88,7 @@ const TestimonialsAndBlog = () => {
             <div className="col-xl-4 col-md-6" data-aos="fade-up" data-aos-duration="400">
               <div className="tekup-blog-wrap2">
                 <div className="tekup-blog-thumb2">
-                  <img src="/assets/images/blog/blog4.png" alt="" />
+                  <img src="/assets/images/hero/blog-1.jpg" alt="" />
                   <div className="tekup-blog-content2">
                     <a href="/">
                       <h3>Technology support allows Erie non-profit to serve</h3>
@@ -106,7 +106,7 @@ const TestimonialsAndBlog = () => {
             <div className="col-xl-4 col-md-6" data-aos="fade-up" data-aos-duration="600">
               <div className="tekup-blog-wrap2">
                 <div className="tekup-blog-thumb2">
-                  <img src="/assets/images/blog/blog5.png" alt="" />
+                <img src="/assets/images/hero/blog-2.jpg" alt="" />
                   <div className="tekup-blog-content2">
                     <a href="/">
                       <h3>The act of knowledge & the act of design thinking</h3>
@@ -124,7 +124,7 @@ const TestimonialsAndBlog = () => {
             <div className="col-xl-4 col-md-6" data-aos="fade-up" data-aos-duration="800">
               <div className="tekup-blog-wrap2">
                 <div className="tekup-blog-thumb2">
-                  <img src="/assets/images/blog/blog6.png" alt="" />
+                <img src="/assets/images/hero/blog-1.jpg" alt="" />
                   <div className="tekup-blog-content2">
                     <a href="/">
                       <h3>Core on web vitals, a SMAS magazine case study</h3>
