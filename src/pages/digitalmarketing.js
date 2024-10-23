@@ -33,7 +33,7 @@ const DigitalMarketing = () => {
 
       <Layout>
         <Header />
-        <div className="tekup-breadcrumb" style={{ backgroundImage: 'url(/assets/images/breadcrumb/breadcrumb.png)' }}>
+        <div className="tekup-breadcrumb" style={{ backgroundImage: 'url(/assets/images/hero/social-media-banner.jpg)' }}>
           <div className="container">
             <h1 className="post__title">Digital Marketing</h1>
             <nav className="breadcrumbs">
@@ -50,7 +50,7 @@ const DigitalMarketing = () => {
             <div className="row">
               <div className="col-lg-8">
                 <div className="tekup-service-details-wrap" data-aos="fade-up" data-aos-duration="600">
-                  <img src="/assets/images/service/service-digital-marketing.png" alt="Digital Marketing" />
+                  <img src="/assets/images/hero/social-media-banner.jpg" alt="Digital Marketing" />
                   <div className="tekup-service-details-item">
                     <h3>Overview</h3>
                     <p>Our Digital Marketing services help businesses connect with their target audience online. We specialize in SEO, social media marketing, content creation, and paid campaigns that drive traffic and improve brand awareness.</p>

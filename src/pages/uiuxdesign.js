@@ -34,7 +34,7 @@ const UIUXDesign = () => {
 
       <Layout>
         <Header />
-        <div className="tekup-breadcrumb" style={{ backgroundImage: 'url(/assets/images/breadcrumb/breadcrumb.png)' }}>
+        <div className="tekup-breadcrumb" style={{ backgroundImage: 'url(/assets/images/hero/uiuxdesign.jpg)' }}>
           <div className="container">
             <h1 className="post__title">UI/UX Design</h1>
             <nav className="breadcrumbs">
@@ -51,7 +51,7 @@ const UIUXDesign = () => {
             <div className="row">
               <div className="col-lg-8">
                 <div className="tekup-service-details-wrap" data-aos="fade-up" data-aos-duration="600">
-                  <img src="/assets/images/service/ui-ux-design.png" alt="UI/UX Design" />
+                  <img src="/assets/images/hero/uiuxcontent-banner.jpg" alt="UI/UX Design" />
                   <div className="tekup-service-details-item">
                     <h3>Overview</h3>
                     <p>UI/UX design plays a crucial role in ensuring that a website or application not only looks great but also provides an intuitive, user-friendly experience. By focusing on how users interact with the platform, we enhance engagement and satisfaction.</p>

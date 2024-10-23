@@ -33,7 +33,7 @@ const AppDevelopment = () => {
 
       <Layout>
         <Header />
-        <div className="tekup-breadcrumb" style={{ backgroundImage: 'url(/assets/images/breadcrumb/breadcrumb.png)' }}>
+        <div className="tekup-breadcrumb" style={{ backgroundImage: 'url(/assets/images/hero/appdevelopment-banner.jpg)' }}>
           <div className="container">
             <h1 className="post__title">App Development</h1>
             <nav className="breadcrumbs">
@@ -50,7 +50,7 @@ const AppDevelopment = () => {
             <div className="row">
               <div className="col-lg-8">
                 <div className="tekup-service-details-wrap" data-aos="fade-up" data-aos-duration="600">
-                  <img src="/assets/images/service/service-app.png" alt="App Development" />
+                  <img src="/assets/images/hero/appdevelopment-banner.jpg" alt="App Development" />
                   <div className="tekup-service-details-item">
                     <h3>Overview</h3>
                     <p>Our App Development services help businesses reach their target audiences through robust and scalable mobile applications. We focus on creating seamless experiences on iOS and Android platforms that drive engagement and improve customer satisfaction.</p>
