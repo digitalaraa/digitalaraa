@@ -79,7 +79,7 @@ const TestimonialsAndBlog = () => {
               </div>
               <div className="col-xxl-7 col-lg-6 d-flex align-items-center justify-content-end">
                 <div className="tekup-title-btn">
-                  <a className="tekup-default-btn" href="blog.html">View All Posts <i className="ri-arrow-right-up-line"></i></a>
+                  <a className="tekup-default-btn" href="/blog">View All Posts <i className="ri-arrow-right-up-line"></i></a>
                 </div>
               </div>
             </div>
@@ -96,7 +96,7 @@ const TestimonialsAndBlog = () => {
                     <div className="tekup-blog-meta tekup-blog-meta2">
                       <ul>
                         <li><a href="/">Technology</a></li>
-                        <li><a href="/">26 June 2023</a></li>
+                        <li><a href="/">26 June 2024</a></li>
                       </ul>
                     </div>
                   </div>
@@ -114,7 +114,7 @@ const TestimonialsAndBlog = () => {
                     <div className="tekup-blog-meta tekup-blog-meta2">
                       <ul>
                         <li><a href="/">Technology</a></li>
-                        <li><a href="/">26 June 2023</a></li>
+                        <li><a href="/">18 Aug 2024</a></li>
                       </ul>
                     </div>
                   </div>
@@ -132,7 +132,7 @@ const TestimonialsAndBlog = () => {
                     <div className="tekup-blog-meta tekup-blog-meta2">
                       <ul>
                         <li><a href="/">Technology</a></li>
-                        <li><a href="/">26 June 2023</a></li>
+                        <li><a href="/">05 Sep 2024</a></li>
                       </ul>
                     </div>
                   </div>

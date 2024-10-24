@@ -200,7 +200,7 @@ const ServicesSection = () => {
 
         {/* Button */}
         <div className="text-center tekup-extra-mt">
-          <Link className="tekup-default-btn" to="/" aria-label="View all services">
+          <Link className="tekup-default-btn" to="/services" aria-label="View all services">
             All Services <i className="ri-arrow-right-up-line"></i>
           </Link>
         </div>

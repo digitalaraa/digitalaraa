@@ -86,7 +86,7 @@ const ITManagement = () => {
                 <h2>Let’s work together</h2>
                 <p>We provide comprehensive IT management services to help you focus on growing your business while we take care of your technology needs.</p>
                 <div className="tekup-extra-mt" data-aos="fade-up" data-aos-duration="600">
-                  <a className="tekup-default-btn tekup-white-btn" href="/contact-us">Start a Project <i className="ri-arrow-right-up-line"></i></a>
+                  <a className="tekup-default-btn tekup-white-btn" href="/contact">Start a Project <i className="ri-arrow-right-up-line"></i></a>
                 </div>
               </div>
             </div>

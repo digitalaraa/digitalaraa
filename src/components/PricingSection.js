@@ -34,7 +34,7 @@ const PricingSection = () => {
                 <h4>Business</h4>
                 <p>Ideal for growing companies needing advanced features and support.</p>
               </div>
-              <a className="tekup-pricing-btn active" href="contact-us.html">Get Started <i className="ri-arrow-right-up-line"></i></a>
+              <a className="tekup-pricing-btn active" href="/contact">Get Started <i className="ri-arrow-right-up-line"></i></a>
               <div className="tekup-pricing-feature">
                 <ul>
                   <li><i className="ri-check-line"></i>Comprehensive branding services</li>

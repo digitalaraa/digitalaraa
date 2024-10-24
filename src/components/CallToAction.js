@@ -67,7 +67,7 @@ const CallToAction = () => {
             <div className="tekup-extra-mt">
               <a
                 className="tekup-default-btn tekup-white-btn"
-                href="/contact-us"
+                href="/contact"
                 aria-label="Start a project with us"
               >
                 Start a Project <i className="ri-arrow-right-up-line"></i>

@@ -86,7 +86,7 @@ const PrivacyPolicy = () => {
                   As a dynamic and forward-thinking company, we offer cutting-edge digital solutions to elevate your business.
                 </p>
                 <div className="tekup-extra-mt" data-aos="fade-up" data-aos-duration="600">
-                  <a className="tekup-default-btn tekup-white-btn" href="/contact-us.html">Start a Project <i className="ri-arrow-right-up-line"></i></a>
+                  <a className="tekup-default-btn tekup-white-btn" href="/contact">Start a Project <i className="ri-arrow-right-up-line"></i></a>
                 </div>
               </div>
             </div>
