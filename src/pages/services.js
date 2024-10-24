@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import { Link } from 'gatsby';
 import { Helmet } from 'react-helmet';
 import Layout from '../components/layout';
 import AOS from 'aos'; // Import AOS directly
