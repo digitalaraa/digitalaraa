@@ -73,7 +73,7 @@ const BusinessSuccessSection = () => {
               </div>
 
               <div className="tekup-extra-mt">
-                <Link className="tekup-default-btn" to="/about-us">
+                <Link className="tekup-default-btn" to="/about">
                   More About <i className="ri-arrow-right-up-line" />
                 </Link>
               </div>
