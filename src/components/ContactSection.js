@@ -504,7 +504,7 @@ const ContactSection = () => {
                 <div className="tekup-contact-info mb-0">
                   <i className="ri-mail-fill" />
                   <h5>Contact</h5>
-                  <a href="mailto:digitalaraa@email.com">digitalaraa@email.com</a>
+                  <a href="mailto:digitalaraa@gmail.com">digitalaraa@gmail.com</a>
                   <a href="tel:+919843442155">9843442155</a>
                 </div>
               </div>
